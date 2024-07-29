@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho - Tecnologia e Meio Ambiente nos Campos</title>
+    <style>
+        /* Estilos CSS podem ser adicionados aqui */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #4CAF50;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .main {
+            background: #fff;
+            float: left;
+            width: 70%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .sidebar {
+            float: left;
+            width: 30%;
+            background: #f0f0f0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Projeto Agrinho - Tecnologia e Meio Ambiente nos Campos</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre o Projeto</a></li>
+            <li><a href="#tecnologia">Tecnologia nos Campos</a></li>
+            <li><a href="#educacao">Educação Ambiental</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="home" class="main">
+            <h2>Bem-vindo ao Projeto Agrinho!</h2>
+            <p>O Projeto Agrinho promove a educação rural e sustentabilidade ambiental através da integração da tecnologia nos campos.</p>
+            <p>Navegue pelas seções para saber mais sobre como a tecnologia está transformando a agricultura e ajudando na conservação do meio ambiente.</p>
+        </section>
+
+        <aside class="sidebar">
+            <h3>Últimas Notícias</h3>
+            <p><strong>Evento:</strong> Workshop sobre Agricultura Sustentável em agosto.</p>
+            <p><strong>Novidade:</strong> Nova parceria com instituto de pesquisa agrícola.</p>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Projeto Agrinho. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
